@@ -24,11 +24,24 @@
 
         <div class="container">
 
-            <div class="column-one column red">Column One</div>
-            <div class="column-two column orange">Column Two</div>
-            <div class="column-three column yellow">Column Three</div>
+            <div class="column-one column red"><h3>Column One</h3></div>
+            <div class="column-two column orange"><h3>Column Two</h3></div>
+            <div class="column-three column yellow"><h3>Column Three</h3></div>
           
         </div>
+
+        <script text="text/template" class="data-template">
+            <div class="properties">
+                <div><%= name %></div>
+                <div><%= job %></div>
+                <div><%= salary %></div>
+            </div>
+            <div class="button-div">
+                <div class="move-button button">Move</div>
+                <div class="copy-button button">Copy</div>
+            </div>
+
+        </script>
 
 
         <!-- build:js scripts/vendor.js -->

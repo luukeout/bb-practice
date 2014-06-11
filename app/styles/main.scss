@@ -25,6 +25,7 @@ body {
 }
 
 .column {
+    vertical-align: top;
     display: inline-block;
     margin: 10px auto 0 auto;
     width: 32%;
@@ -37,8 +38,34 @@ body {
     border-radius: 6px;
     border: 1px solid blue;
     // padding: 60px;
-
 }
+
+.dataView {
+    margin: 0 auto;
+    width: 80%;
+    border-top: 1px solid #6C6868;
+
+        .button {
+            margin: 5px;
+            padding: 5px;
+            width: 75px;
+            height: 30px;
+            background-color: #74539D;
+            border-radius: 6px;
+            color: white;
+
+        }
+}
+
+.properties {
+    display: inline-block;
+}
+
+.button-div {
+    display: inline-block;
+    margin: 5px;
+}
+
 
 .browsehappy {
     margin: 0.2em 0;
