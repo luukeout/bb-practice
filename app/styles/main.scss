@@ -2,9 +2,13 @@
 // endbower
 
 body {
-    background: #fafafa;
+    background: #dde;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .red {
@@ -19,18 +23,40 @@ body {
     background-color: #FCE03D;
 }
 
+.header {
+    // position: fixed;
+    background-image:url("http://telluridehikingguide.com/hikes/wp-content/uploads/2012/06/header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    // overflow: hidden;
+    
+
+}
+    // img {
+    //     background-image: 100%;
+    //     max-width: 100%;
+    //     max-height: 350px;
+    //     // overflow: hidden;
+    // } 
+
 .container {
+    background-color: #dde;
     margin: 0 auto;
     width: 90%;
 }
 
+h3 {
+    text-align: center;
+}
+
+
 .column {
     vertical-align: top;
     display: inline-block;
-    margin: 10px auto 0 auto;
-    width: 32%;
+    margin:  auto;
+    width: 32.9%;
     height: 100%;
-    text-align: center;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -41,30 +67,45 @@ body {
 }
 
 .dataView {
-    margin: 0 auto;
+    margin: 5px auto;
     width: 80%;
     border-top: 1px solid #6C6868;
+    overflow: hidden;
 
         .button {
-            margin: 5px;
+            margin: 5px 5px 0px;
             padding: 5px;
             width: 75px;
             height: 30px;
+            text-align: center;
             background-color: #74539D;
             border-radius: 6px;
             color: white;
 
         }
+
+        .properties {
+            display: inline-block;
+            margin: 0px 5px;
+            // float: left;
+        }
+
+        .button-div {
+
+            display: inline-block;
+            // margin: 5px 0px 5px 15px;
+            float: right;
+        }
 }
 
-.properties {
-    display: inline-block;
+.footer {
+    background-image: url("http://www.vi100.com/user-content/uploads/wall/o/69/7087c2e0bb39e2faa101532bb39747ac.jpeg");
+    vertical-align: bottom;
+    // background-size: cover;
+    width: 100%;
+    height: 200px;
 }
 
-.button-div {
-    display: inline-block;
-    margin: 5px;
-}
 
 
 .browsehappy {
