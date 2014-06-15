@@ -27,6 +27,7 @@ body {
 .header {
     // position: fixed;
     background-image:url("http://telluridehikingguide.com/hikes/wp-content/uploads/2012/06/header.jpg");
+    background-position: top center;
     background-size: cover;
     width: 100%;
     height: 350px;
@@ -40,6 +41,13 @@ body {
 }
 
 .logo {
+    // background: url("https://s3.amazonaws.com/htw/dt-contest-entries/92574/united-states-outdoors-retail-Readiness-Camping-gear-Survival-Emergency-preparedness-logo-design.png");
+    background-size: contain;
+    // background-position: center center no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0;
+    padding-top: 20px;
 
     img {
         width: 100px;
@@ -68,7 +76,7 @@ h3 {
 .column {
     vertical-align: top;
     display: inline-block;
-    margin:  auto;
+    margin:  30px auto;
     width: 32.9%;
     // height: 300px;
     font-size: 18px;
@@ -122,6 +130,7 @@ h3 {
 
 .footer {
     background-image: url("http://www.vi100.com/user-content/uploads/wall/o/69/7087c2e0bb39e2faa101532bb39747ac.jpeg");
+    background-position: top center;
     vertical-align: bottom;
     background-size: cover;
     width: 100%;

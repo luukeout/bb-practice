@@ -1,6 +1,6 @@
 "use strict";
 
-var ColumnOneView = Backbone.View.extend({
+var ColumnView = Backbone.View.extend({
 
 	className: 'dataView',
 
@@ -13,8 +13,8 @@ var ColumnOneView = Backbone.View.extend({
 
 	initialize: function(){
 
-		$('.column-one').append(this.el);
-		this.render()
+		// $('.column-one').append(this.el);
+		// this.render()
 
 	},
 
